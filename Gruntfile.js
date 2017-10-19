@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             },
             my_target: {
                 files: {
-                    'dist/js-pointer.min.js': ['dist/js-pointer.js']
+                    'dist/mouse-pointer.min.js': ['dist/mouse-pointer.js']
                 }
             }
         },
