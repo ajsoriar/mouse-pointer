@@ -1,0 +1,29 @@
+{
+  "name": "js-pointer",
+  "description": "Small utility to personalize the cursor of the mouse.",
+  "main": "dist/js-pointer.min.js",
+  "authors": [
+    "Andres J. Soria R. <<ajsoriar@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mouse pointer",
+    "mouse cursor",
+    "js-pointer",
+    "pointer",
+    "jspointer",
+    "pointer.js",
+    "mouse",
+    "cursor",
+    "mouse-pointer",
+    "mouse-cursor"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
