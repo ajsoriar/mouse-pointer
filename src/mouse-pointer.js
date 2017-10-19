@@ -18,6 +18,10 @@
       "max-z-index" : 2147483647,
       "x": null,
       "y": null,
+
+      "el": null,
+
+      /*
   
       init: function() {
   
@@ -27,7 +31,8 @@
   
         window[ addEventListener ? 'addEventListener' : 'attachEvent' ]( addEventListener ? 'load' : 'onload', this.load )
       },
-  
+  */
+
       load:function() {
   
         console.log("load!");
@@ -50,7 +55,9 @@
         //event.preventDefault();
   
         //alert(this.form.find('input[type=text]').val());
-      }
+      },
+
+      el: null
     }
 
 
@@ -66,6 +73,36 @@
 
       console.log("Back to reality!");
     }
+
+    // remove mouse
+
+    //document.body.setAttribute("style", "background-color: red;");
+    document.firstElementChild.setAttribute("style", "cursor: none;"); // html element
+    //document.body.appendChild(this.el);
+    var strId = "mouse-"+ Date.now();
+    this.el = document.createElement('div');
+    this.el.setAttribute("id", strId );
+    this.el.setAttribute("style","width: 20px; height: 20px; display: block; background-color: aqua; position: absolute; top: 0; left: 0;");
+    document.body.appendChild(this.el);
+    console.log("this.el:", this.el );
+
+    var that = this;
+
+
+    addEventListener("mousemove", function(){
+
+      console.log("that.el:", that.el );
+
+      that.x = 300;
+      that.y = 200;
+
+      //that.transformFunction();
+
+      that.el.setAttribute("style","left: "+ that.x +"px; height: 20px; display: block; background-color: aqua; position: absolute; width: 20px; top: "+ that.y +"px;");
+
+    });
+
+
 
     /*
 
