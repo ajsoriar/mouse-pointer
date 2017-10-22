@@ -89,18 +89,27 @@
     var that = this;
 
 
-    addEventListener("mousemove", function(){
 
-      console.log("that.el:", that.el );
+    addEventListener("mousemove", function( event ){
 
-      that.x = 300;
-      that.y = 200;
+      //console.log("that.el:", that.el );
+      console.log("event:", event );
+
+      that.x = event.clientX;
+      that.y = event.clientY;
+
+      //that.x = 300;
+      //that.y = 200;
 
       //that.transformFunction();
 
       that.el.setAttribute("style","left: "+ that.x +"px; height: 20px; display: block; background-color: aqua; position: absolute; width: 20px; top: "+ that.y +"px;");
 
     });
+
+        // Atach events to window
+    //document.onmousemove = mouse.handleMouseMove;
+    //document.onclick = mouse.handleMouseClick;
 
 
 
