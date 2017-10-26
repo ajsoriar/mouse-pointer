@@ -115,7 +115,16 @@
         // Atach events to window
     //document.onmousemove = mouse.handleMouseMove;
     //document.onclick = mouse.handleMouseClick;
+    addEventListener("click", function( event ){
+      
+            //console.log("that.el:", that.el );
+            console.log("event:", event );
+      
+            that.x = event.clientX;
+            that.y = event.clientY;
+      
 
+    });
 
 
     /*
