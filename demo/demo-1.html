@@ -6,17 +6,64 @@
             body {
                 overflow: hidden;
                 background-image: url("bg-005.gif");
-
-                
             }
 
             * {cursor: none;}
+
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            li{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: rgba(112, 240, 197, 0.7);
+                line-height: 200px;
+                text-align: center;
+                font-family: monospace;
+                margin: 15px;
+                /* display: inline-block; */
+                float: left;
+            }
+
+            .console {
+                background-color: rgb(54, 54, 54);
+                color: yellow;
+                position: absolute;
+                bottom: 0;
+                min-height: 200px;
+                width: 600px;
+                font-family: monospace;
+            }
+
+            .nfcd{
+                border: 3px solid red;
+            }
+
         </style>
     </head>
 
     <body>
         <div id="mainContainer">
+
         </div>
+
+        <ul id="test">
+            <li id="li-001" class="box">item 1</li>
+            <li id="li-002" class="box nfcbl">item 2</li>
+            <li id="li-003" class="box nfcbl">item 3</li>
+        </ul>
+
+        <div id="console" class="console"></div>
+
         <script src="../src/mouse-pointer.js"></script>
         <script>
 
