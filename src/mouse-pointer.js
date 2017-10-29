@@ -6,9 +6,8 @@
  * @author Andres J. Soria R. <ajsoriar@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
-(function() {
 
-  // window.ptr = {};
+(function() {
 
   window.ptr  = {
       
@@ -33,13 +32,11 @@
       },
   
       show: function() {
-        //this.form.on('submit', $.proxy(this.showName, this));
+
       },
   
       hide: function(event) {
-        //event.preventDefault();
-  
-        //alert(this.form.find('input[type=text]').val());
+
       },
 
       el: null
@@ -63,22 +60,18 @@
 
     if (window.PointerEvent) {
 
-      console.log("Yaah, the future is now!");
+        console.log("Yaah, the future is now!");
 
     } else {
 
-      console.log("Back to reality!");
+        console.log("Back to reality!");
     }
 
     var getBgImage = function() {
-      return "background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAAEDWlDQ1BJQ0MgUHJvZmlsZQAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VVBg/m8AAACRSURBVDgRjdNhDoAgCAXgdMk9O1n35I+FC5dPUNxaQ9+HtWkqpVRmPqIjS5CIovmjAeYrjBqQ9lHUQRQNIIImsEMmWCEXeGgJLLQFiE6Z8AbRPSzJiZh2wJCcs/8zAAwP7b+iAwlrJ4XWcWlAw1ZHnGsA74PU3i4Zw9gR6/4PuODt4gJsoHWq79DCeuv11U9/AEd+Ta3o2Zz/AAAAAElFTkSuQmCC')";
+        return "background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAAEDWlDQ1BJQ0MgUHJvZmlsZQAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VVBg/m8AAACRSURBVDgRjdNhDoAgCAXgdMk9O1n35I+FC5dPUNxaQ9+HtWkqpVRmPqIjS5CIovmjAeYrjBqQ9lHUQRQNIIImsEMmWCEXeGgJLLQFiE6Z8AbRPSzJiZh2wJCcs/8zAAwP7b+iAwlrJ4XWcWlAw1ZHnGsA74PU3i4Zw9gR6/4PuODt4gJsoHWq79DCeuv11U9/AEd+Ta3o2Zz/AAAAAElFTkSuQmCC')";
     };
 
-    // remove mouse
-
-    //document.body.setAttribute("style", "background-color: red;");
     document.firstElementChild.setAttribute("style", "cursor: none;"); // html element
-    //document.body.appendChild(this.el);
     var strId = "mouse-"+ Date.now();
     this.el = document.createElement('div');
     this.el.setAttribute("id", strId );
@@ -98,7 +91,6 @@
         txt = that.x +'; '+ that.y +'; '+ event.target +'; '+ event.target.className +';'+ event.target.classList.length +';'+ event.target.classList; 
         document.getElementById("console").innerHTML = txt;
 
-        // check if the class 'focus' is available
         for ( var i=0; i < event.target.classList.length; i++){
             if ( event.target.classList[i] == "nfcbl") {
 
@@ -120,14 +112,13 @@
 
                     // remove previous element styles
                     if ( ptr.previousElement != null){
-                      ptr.previousElement.classList.remove("nfcd");
+                       console.log("remove class nfcd!");
+                        ptr.previousElement.classList.remove("nfcd");
                     }
                   
                     // set the previous element as the current one
                     ptr.previousElement = event.target;
-                } 
-
-                //ptr.previousElement = target.attributes.id;
+                }
             }
         }
     });
@@ -178,29 +169,6 @@
     */
 
     return this
-  };
-
-  ptr.line = function (x1,y1,x2,y2,thickness,color) {
-    /*
-    if (!this.el) this.init();
-    if (color === "RANDOM") color = this.utils.getRandomColor();
-    if (color === null) color = "#000";
-    if (thickness === null) thickness = 2;
-    var new_content = ptr.getLineString(null,x1,y1,x2,y2, thickness, color, 1, false, 0, null);
-    this.draw( new_content );
-    return this.el.lastElementChild
-    */
-  };
-
-  ptr.linex = function (idString,x1,y1,x2,y2,weight,color,opacity, roundBorder, longSombra, colSombra){ // extended functionality
-    /*
-    if (!this.el) this.init();
-    if (color === "RANDOM") color = this.utils.getRandomColor();
-    if (color === null) color = "#000";
-    var new_content = ptr.getLineString(idString,x1,y1,x2,y2,weight,color,opacity, roundBorder, longSombra, colSombra);
-    this.draw( new_content );
-    return this.el.lastElementChild
-    */
   };
 
   ptr.rndLine = function(){
