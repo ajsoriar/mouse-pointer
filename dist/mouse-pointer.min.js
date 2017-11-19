@@ -1,5 +1,5 @@
 /**
- * js-pointer
+ * mouse-pointer
  * Small utility to personalize the cursor of the mouse.
  * @version v0.0.1 - 2017-10-19
  * @link https://github.com/ajsoriar/div-lines
