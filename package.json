@@ -1,19 +1,19 @@
 {
-  "name": "js-pointer",
+  "name": "mouse-pointer",
   "version": "1.0.0",
   "description": "Small utility to personalize the cursor of the mouse.",
-  "main": "dist/js-pointer.min.js",
+  "main": "dist/mouse-pointer.min.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/ajsoriar/js-pointer.git",
+  "repository": "git+https://github.com/ajsoriar/mouse-pointer.git",
   "keywords": [
     "mouse pointer",
     "mouse cursor",
-    "js-pointer",
+    "mouse-pointer",
     "pointer",
     "jspointer",
     "pointer.js",
@@ -25,9 +25,9 @@
   "author": "Andres J. Soria R. <<ajsoriar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajsoriar/js-pointer/issues"
+    "url": "https://github.com/ajsoriar/mouse-pointer/issues"
   },
-  "homepage": "https://github.com/ajsoriar/js-pointer#readme",
+  "homepage": "https://github.com/ajsoriar/mouse-pointer#readme",
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-cleanempty": "^1.0.3",

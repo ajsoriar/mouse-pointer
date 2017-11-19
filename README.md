@@ -1,27 +1,27 @@
-# js-pointer [![Build Status](https://travis-ci.org/ajsoriar/js-pointer.svg?branch=master)](https://travis-ci.org/ajsoriar/js-pointer)
+# mouse-pointer [![Build Status](https://travis-ci.org/ajsoriar/mouse-pointer.svg?branch=master)](https://travis-ci.org/ajsoriar/mouse-pointer)
 
-[![npm version](https://badge.fury.io/js/js-pointer.svg)](https://badge.fury.io/js/js-pointer)
-[![Bower version](https://badge.fury.io/bo/js-pointer.svg)](https://badge.fury.io/bo/js-pointer)
-[![NuGet version](https://badge.fury.io/nu/js-pointer.svg)](https://badge.fury.io/nu/js-pointer)
+[![npm version](https://badge.fury.io/js/mouse-pointer.svg)](https://badge.fury.io/js/mouse-pointer)
+[![Bower version](https://badge.fury.io/bo/mouse-pointer.svg)](https://badge.fury.io/bo/mouse-pointer)
+[![NuGet version](https://badge.fury.io/nu/mouse-pointer.svg)](https://badge.fury.io/nu/mouse-pointer)
 
 Small utility to personalize the cursor of the mouse.
 
 ## Quick start. 
 
-#### 1 Download and Install js-pointer:
+#### 1 Download and Install mouse-pointer:
 
- - Bower: **bower install js-pointer**
- - NPM: **npm install js-pointer**
- - NuGet: **PM> Install-Package js-pointer**
- - github: **https://github.com/ajsoriar/js-pointer**
- - yarn: **yarn add js-pointer**
+ - Bower: **bower install mouse-pointer**
+ - NPM: **npm install mouse-pointer**
+ - NuGet: **PM> Install-Package mouse-pointer**
+ - github: **https://github.com/ajsoriar/mouse-pointer**
+ - yarn: **yarn add mouse-pointer**
 
 #### 2 Include dependences: 
-2.1 js-pointer.js or js-pointer.min.js are under dist folder.
+2.1 mouse-pointer.js or mouse-pointer.min.js are under dist folder.
 
-2.2 Include js-pointer.js or js-pointer.min.js, e.g.
+2.2 Include mouse-pointer.js or mouse-pointer.min.js, e.g.
 ```javascript
-<script src="../dist/js-pointer.min.js"></script>
+<script src="../dist/mouse-pointer.min.js"></script>
 ```
 
 #### 3 Use it. 
