@@ -49,14 +49,8 @@
 
 	ajsrCursor.init();
 
-
-
-
 	//alert('Hello ajsrMouse!');
-
 	//window.onload=cursor.init();
-
-
 })
 
 console.log("file was loadded!");
